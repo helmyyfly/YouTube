@@ -136,14 +136,6 @@ hr {
     margin-left: 25px;
 }
 
-/* img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-} */
 .logo-img img {
     position: absolute;
     color: #fff;
@@ -197,36 +189,6 @@ hr {
 .sidebar-item i {
     margin-right: 24px;
 }
-.content {
-    width: calc(100vw - 240px);
-}
-
-.chips-wrapper {
-    overflow-x: scroll;
-    background-color: #181818;
-    display: flex;
-    padding-left: 14px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-
-.chip {
-    margin: 12px 6px;
-    background-color: #373737;
-    padding: 6px 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
-    white-space: nowrap;
-    cursor: pointer;
-    color: #fff;
-    transition: .5s;
-}
-
-.chip:hover {
-    background-color: #4D4D4D;
-}
-
 .content {
     width: calc(100vw - 240px);
 }
