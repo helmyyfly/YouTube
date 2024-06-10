@@ -222,11 +222,7 @@ hr {
 .chip:hover {
     background-color: #4D4D4D;
 }
-
-
-
-
-/* media screen / responsif */
+/* responsive youngtub */
 @media screen and (max-width: 600px) {
     .search-container,
     .ri-grid-fill {
