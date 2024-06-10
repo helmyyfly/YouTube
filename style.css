@@ -223,7 +223,7 @@ hr {
     background-color: #4D4D4D;
 }
 /* responsive youngtub */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .search-container,
     .ri-grid-fill {
         display: none;}
@@ -242,4 +242,4 @@ hr {
     .more {
         display: none;
     }
-}
+} */
