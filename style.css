@@ -222,27 +222,7 @@ hr {
 .chip:hover {
     background-color: #4D4D4D;
 }
-/* responsive youngtub */
-/* @media screen and (max-width: 600px) {
-    .search-container,
-    .ri-grid-fill {
-        display: none;}
-        .header {
-            padding-right: 10px;
-        }
-}
-@media (max-width:1200px) {
-    .sidebar {
-        width: 70px;
-        overflow-x: hidden;
-    }
-    .content {
-        width: calc(100vw - 70px);
-    }
-    .more {
-        display: none;
-    }
-} */
+
 /* Container Content */
 .container-content {
     background-color: #000;
@@ -330,3 +310,39 @@ hr {
     opacity: 1;
 }
 /* End Container Content */
+
+/* responsive youngtub */
+
+@media screen and (max-width: 600px) {
+    .search-container,
+    .ri-grid-fill {
+        display: none;}
+        .header {
+            padding-right: 10px;
+        }
+}
+
+@media (max-width:1200px) {
+    .sidebar {
+        width: 70px;
+        overflow-x: hidden;
+    }
+    .content {
+        width: calc(100vw - 70px);
+    }
+    .more {
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .container-content .box {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-content .box {
+        width: calc(100% - 20px);
+    }
+}
+/* end media queries */
